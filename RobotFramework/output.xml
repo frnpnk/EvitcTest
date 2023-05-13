@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.11 on win32)" generated="20230511 11:09:02.294" rpa="false" schemaversion="3">
+<suite id="s1" name="Login" source="C:\Users\Bathory\Documents\jobs\evitec\Test\login.robot">
+<test id="s1-t1" name="TEST" line="10">
+<kw name="Log" library="BuiltIn">
+<arg>this is a message</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230511 11:09:02.318" level="INFO">this is a message</msg>
+<status status="PASS" starttime="20230511 11:09:02.318" endtime="20230511 11:09:02.318"/>
+</kw>
+<kw name="Create Webdriver">
+<arg>chrome</arg>
+<msg timestamp="20230511 11:09:02.319" level="FAIL">No keyword with name 'Create Webdriver' found.</msg>
+<status status="FAIL" starttime="20230511 11:09:02.319" endtime="20230511 11:09:02.320"/>
+</kw>
+<tag>demo</tag>
+<status status="FAIL" starttime="20230511 11:09:02.317" endtime="20230511 11:09:02.320">No keyword with name 'Create Webdriver' found.</status>
+</test>
+<doc>Tests to Evitec</doc>
+<status status="FAIL" starttime="20230511 11:09:02.296" endtime="20230511 11:09:02.321"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">demo</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230511 11:09:02.313" level="ERROR">Error in file 'C:\Users\Bathory\Documents\jobs\evitec\Test\login.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Bathory\Documents\jobs\evitec\evitec_env\Scripts\robot.exe
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\python310.zip
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\DLLs
+  C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib
+  C:\Users\Bathory\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0
+  C:\Users\Bathory\Documents\jobs\evitec\evitec_env
+  C:\Users\Bathory\Documents\jobs\evitec\evitec_env\lib\site-packages</msg>
+</errors>
+</robot>

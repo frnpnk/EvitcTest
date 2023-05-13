@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.11 on win32)" generated="20230510 20:25:57.695" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Bathory\.vscode\extensions\robocorp.robotframework-lsp-1.10.1\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Run Keyword If" library="BuiltIn">
+<arg>$var_in_py_expr1 == $var_in_py_expr2</arg>
+<arg>Keyword</arg>
+<arg>@args</arg>
+<arg>ELSE IF</arg>
+<arg>condition_in_py_expr</arg>
+<arg>Keyword</arg>
+<arg>@args</arg>
+<arg>ELSE</arg>
+<arg>Keyword</arg>
+<arg>@args</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<msg timestamp="20230510 20:25:58.345" level="FAIL">Evaluating expression '$var_in_py_expr1 == $var_in_py_expr2' failed: Variable '$var_in_py_expr1' not found.</msg>
+<status status="FAIL" starttime="20230510 20:25:58.342" endtime="20230510 20:25:58.345"/>
+</kw>
+<status status="PASS" starttime="20230510 20:25:57.712" endtime="20230510 20:45:14.019"/>
+</kw>
+<status status="PASS" starttime="20230510 20:25:57.712" endtime="20230510 20:45:14.020"/>
+</test>
+<status status="PASS" starttime="20230510 20:25:57.696" endtime="20230510 20:45:14.020"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
